@@ -1,0 +1,8 @@
+# <file system>    <mount point>  <type>  <options>             <dump>  <pass>
+
+# Корневой раздел (Root)
+UUID=2026-04-01-15-12-08-00  /              ext4    defaults              1       1
+
+# Пример для вашего tmpfs (чтобы systemd не ругался)
+tmpfs              /run           tmpfs   defaults,size=4M,mode=0755  0  0
+tmpfs              /tmp           tmpfs   defaults,mode=1777          0  0

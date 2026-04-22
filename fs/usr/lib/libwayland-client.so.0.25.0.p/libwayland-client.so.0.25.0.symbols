@@ -1,0 +1,87 @@
+ 0x000000000000000e (SONAME)             Library soname: [libwayland-client.so.0]
+wl_array_add T
+wl_array_copy T
+wl_array_init T
+wl_array_release T
+wl_buffer_interface D 28
+wl_callback_interface D 28
+wl_compositor_interface D 28
+wl_data_device_interface D 28
+wl_data_device_manager_interface D 28
+wl_data_offer_interface D 28
+wl_data_source_interface D 28
+wl_display_cancel_read T
+wl_display_connect T
+wl_display_connect_to_fd T
+wl_display_create_queue T
+wl_display_create_queue_with_name T
+wl_display_disconnect T
+wl_display_dispatch T
+wl_display_dispatch_pending T
+wl_display_dispatch_pending_single T
+wl_display_dispatch_queue T
+wl_display_dispatch_queue_pending T
+wl_display_dispatch_queue_pending_single T
+wl_display_dispatch_queue_timeout T
+wl_display_dispatch_timeout T
+wl_display_flush T
+wl_display_get_error T
+wl_display_get_fd T
+wl_display_get_protocol_error T
+wl_display_interface D 28
+wl_display_prepare_read T
+wl_display_prepare_read_queue T
+wl_display_read_events T
+wl_display_roundtrip T
+wl_display_roundtrip_queue T
+wl_display_set_max_buffer_size T
+wl_event_queue_destroy T
+wl_event_queue_get_name T
+wl_fixes_interface D 28
+wl_keyboard_interface D 28
+wl_list_empty T
+wl_list_init T
+wl_list_insert T
+wl_list_insert_list T
+wl_list_length T
+wl_list_remove T
+wl_log_set_handler_client T
+wl_output_interface D 28
+wl_pointer_interface D 28
+wl_proxy_add_dispatcher T
+wl_proxy_add_listener T
+wl_proxy_create T
+wl_proxy_create_wrapper T
+wl_proxy_destroy T
+wl_proxy_get_class T
+wl_proxy_get_display T
+wl_proxy_get_id T
+wl_proxy_get_interface T
+wl_proxy_get_listener T
+wl_proxy_get_queue T
+wl_proxy_get_tag T
+wl_proxy_get_user_data T
+wl_proxy_get_version T
+wl_proxy_marshal T
+wl_proxy_marshal_array T
+wl_proxy_marshal_array_constructor T
+wl_proxy_marshal_array_constructor_versioned T
+wl_proxy_marshal_array_flags T
+wl_proxy_marshal_constructor T
+wl_proxy_marshal_constructor_versioned T
+wl_proxy_marshal_flags T
+wl_proxy_set_queue T
+wl_proxy_set_tag T
+wl_proxy_set_user_data T
+wl_proxy_wrapper_destroy T
+wl_region_interface D 28
+wl_registry_interface D 28
+wl_seat_interface D 28
+wl_shell_interface D 28
+wl_shell_surface_interface D 28
+wl_shm_interface D 28
+wl_shm_pool_interface D 28
+wl_subcompositor_interface D 28
+wl_subsurface_interface D 28
+wl_surface_interface D 28
+wl_touch_interface D 28

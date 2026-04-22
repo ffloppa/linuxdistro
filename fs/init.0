@@ -1,0 +1,10 @@
+#!bin/sh
+
+echo "mnt sysfs"
+mount -t sysfs /sys sys
+echo "mnt proc"
+mount -t proc /proc proc
+echo "mnt devtmpfs"
+mount -t devtmpfs /dev dev
+
+bin/sh
